@@ -1,0 +1,26 @@
+// Base
+// подключаем файл с переменными
+@import "./base/vars";
+// подключаем обнуление стилей
+@import "./base/reset";
+// подключаем файл base
+@import "./base/base";
+
+// Blocks
+// подключаем секцию
+@import "./blocks/section-card";
+
+// подключаем заголовки
+@import "./blocks/titles";
+
+// подключаем хеадер корзины
+@import "./blocks/cart-header";
+
+// подключаем footer корзины
+@import "./blocks/cart-footer";
+
+// подключаем продукт
+@import "./blocks/product";
+
+// подключаем счетчик
+@import "./blocks/count"; 
